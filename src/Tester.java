@@ -1,12 +1,11 @@
 //Cesar Pimentel
 
-/**
- * The tester class, I use it to make sure everything is getting instantiated and loaded correctly.
- */
-
 import org.junit.Test;
 import javax.swing.*;
 
+/**
+ * The tester class, to make sure GUI is working correctly.
+ */
 public class Tester {
     @Test
     public void test() {

@@ -1,21 +1,15 @@
 //Cesar Pimentel
 
-/**
- * The TestResizableCircle class is basically the foundation of the GUI, here is where I instantiate a
- * ResizableCircle class object, also a Point object that's for the circle to be drawn relative to
- * the circle1Center's coordinates.
- *
- * I use a mouse listener, so I can tell which button on your mouse is being pressed, based on that...the size
- * of the circle will either increase or decrease. By calling the resize method!
- *
- * And the paintComponent takes care of redrawing the coordinates based on your input.
- */
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
+/**
+ * Interactive GUI component that displays a resizable circle.
+ * This panel extends JPanel and allows users to interactively resize
+ * a circle using mouse clicks.
+ */
 public class TestResizableCircle extends JPanel {
     ResizableCircle circle1 = new ResizableCircle(50);
 
@@ -43,8 +37,7 @@ public class TestResizableCircle extends JPanel {
             }
         });
     }
-    /* This method is in charge of actually painting the circle.
-     */
+
     protected void paintComponent(Graphics graphics) {
         super.paintComponent(graphics);
 

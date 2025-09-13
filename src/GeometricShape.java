@@ -1,8 +1,7 @@
 //Cesar Pimentel
 
-
 /**
- * Interface with 2 methods, most likely for future shapes which helps with reusability.
+ * GeometricShape interface that provides common functionality for other shapes.
  */
 public interface GeometricShape {
 

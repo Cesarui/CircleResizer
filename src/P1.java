@@ -2,7 +2,11 @@
 
 import javax.swing.*;
 
-public class main {
+/**
+ * Main class to run the ResizableCircle GUI application.
+ * Creates and displays a window with an interactive resizable circle.
+ */
+public class P1 {
     public static void main(String[] args) {
 
 
