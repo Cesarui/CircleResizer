@@ -31,5 +31,4 @@ public abstract class Circle implements  GeometricShape{
     public String toString() {
         return "Circle[radius=" + radius + "]";
     }
-
 }
