@@ -1,5 +1,10 @@
-import org.junit.Test;
+//Cesar Pimentel
 
+/**
+ * The tester class, I use it to make sure everything is getting instantiated and loaded correctly.
+ */
+
+import org.junit.Test;
 import javax.swing.*;
 
 public class Tester {
